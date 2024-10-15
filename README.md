@@ -3,7 +3,7 @@
 This project showcases an automated trading bot that retrieves live OHLCV (Open, High, Low, Close, Volume) data from Binance, analyzes it with technical indicators, and executes orders based on predefined strategies.
 
 Key Features
-Live OHLCV Data from Binance:
+* Live OHLCV Data from Binance:
 
 Utilizes Binance's REST API to fetch historical OHLCV data for specific trading pairs (e.g., BTCUSDT) and intervals.
 
