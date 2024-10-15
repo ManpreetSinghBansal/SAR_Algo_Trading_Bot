@@ -39,4 +39,5 @@ Key Features
   * Generates buy/sell signals using SAR and other indicators.
   * Automatically executes market orders through the Binance API.
   * Backtests strategies on historical data for performance evaluation.
+
  
