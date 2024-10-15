@@ -3,7 +3,7 @@
 This project showcases an automated trading bot that retrieves live OHLCV (Open, High, Low, Close, Volume) data from Binance, analyzes it with technical indicators, and executes orders based on predefined strategies.
 
 Key Features
-* Live OHLCV Data from Binance:
+1. Live OHLCV Data from Binance:
 
  * Utilizes Binance's REST API to fetch historical OHLCV data for specific trading pairs (e.g., BTCUSDT) and intervals.
 
@@ -11,7 +11,7 @@ Key Features
 
  * Uses a WebSocket connection to receive live market data continuously and update the DataFrame in real time.
 
-* Parabolic SAR Trading Strategy:
+2. Parabolic SAR Trading Strategy:
 
  * Implements the SAR (Stop and Reverse) strategy via the TA-Lib library.
 
@@ -19,7 +19,7 @@ Key Features
 
  * Automatically triggers market order execution based on live SAR signals.
 
-* Multiple Technical Strategies:
+3. Multiple Technical Strategies:
 
  * SMA Crossover: Detects buy/sell signals with two Simple Moving Averages.
 
@@ -29,7 +29,7 @@ Key Features
 
  * Uses the Backtesting.py framework for historical strategy testing.
 
-* Automated Order Execution:
+4. Automated Order Execution:
 
  * Interacts with Binance's testnet API to place buy and sell orders.
 
@@ -39,7 +39,7 @@ Key Features
 
  * Supports adjustable parameters like order quantity and timeframe.
 
-* Backtesting and Visualization:
+5. Backtesting and Visualization:
 
  * Integrates backtesting with Backtesting.py to test strategies on historical data.
 
@@ -47,7 +47,7 @@ Key Features
 
  * Visualizes strategy performance with graphs and plots.
 
-* Tools & Technologies
+6. Tools & Technologies
  * Python: For data processing, API interaction, and automation.
 
  * Pandas: For DataFrame management and OHLCV data analysis.
@@ -60,7 +60,7 @@ Key Features
 
  * WebSockets: For real-time data updates.
 
-* How It Works
+7. How It Works
  * Fetches historical OHLCV data using Binance's API.
 
  * Updates OHLCV data in real-time with WebSocket streams.
