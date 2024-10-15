@@ -4,7 +4,6 @@ This project showcases an automated trading bot that retrieves live OHLCV (Open,
 
 Key Features
 1. Live OHLCV Data from Binance:
-
  * Utilizes Binance's REST API to fetch historical OHLCV data for specific trading pairs (e.g., BTCUSDT) and intervals.
 
  * Processes data into a Pandas DataFrame for easy manipulation and analysis.
